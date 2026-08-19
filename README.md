@@ -1,5 +1,7 @@
 # Local Vision
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 给纯文本大语言模型提供本地视觉能力的 AI Agent Skill。主模型（如 DeepSeek、Qwen-Coder、CodeLlama 等）不支持图像输入时，通过本地 Ollama 多模态模型识别图片并转成文字，让主模型"看得见"。
 
 全程 100% 本地运行：图片不离开你的电脑，无云端上传、无 API Key、无数据隐私风险。
@@ -129,6 +131,10 @@ python vision.py 图片.png "问题?" ocr     # 文件 + OCR 模式
 - 多模型动态切换（快速小模型 + 精确大模型）
 - 严格结构化输出校验
 - 支持视频帧提取
+
+## Contributing
+
+欢迎贡献！请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解分支策略、提交规范与 PR 流程。遇到问题请先搜索 [Issues](https://github.com/lixingyu2026/Local-Vision/issues)。
 
 ## License
 
