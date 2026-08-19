@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-vision"
+version = "1.0.0"
+description = "给纯文本大语言模型提供本地视觉能力的 AI Agent Skill（基于 Ollama 多模态模型）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["ollama", "vision", "ocr", "local", "ai-agent", "skill", "multimodal"]
+dependencies = [
+    "Pillow>=10.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/lixingyu2026/Local-Vision"
